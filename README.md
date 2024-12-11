@@ -1,6 +1,6 @@
 # OpenCore - Dell Latitude E6430s, Big Sur (tested)
 
-> **Note:** The **internal SSD** of the Dell Latitude E6430s is compatible with macOS. Ensure your SSD uses a supported interface (SATA). Installation was tested with macOS Big Sur. If issues arise, consider testing with an external drive temporarily.
+> **Note:** The **internal SATA controller** of the Dell Latitude E6430s is compatible with macOS. Ensure your BIOS has its SATA settings turned to AHCI and not RAID, it is also advised to disable VT-dx and remove the Dock (USB docks are fine). Installation was tested with macOS Big Sur. If issues arise, consider testing with an external drive temporarily.
 
 This repository provides a fully functional OpenCore EFI configuration for running macOS on the **Dell Latitude E6430s**. This setup allows macOS Big Sur to be installed and run with support for essential features like Wi-Fi, audio, power management, and the touchpad. Check Releases for the EFI.
 
